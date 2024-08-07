@@ -13,7 +13,7 @@
                 <i class="fa-solid fa-plus text-2xl hover:text-weather-secondary duration-150 cursor-pointer"></i>
             </div>
 
-            <BaseModal :modalActive="modalActive">
+            <BaseModal :modalActive="modalActive" @close-modal="toggleModal">
                 <p class="text-black">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur distinctio blanditiis iste inventore voluptas consequuntur exercitationem quisquam, dolorum quo maxime numquam incidunt ab illum in quasi pariatur soluta perferendis sunt assumenda vitae!
                 </p>
